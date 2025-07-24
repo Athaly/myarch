@@ -15,7 +15,7 @@ Este proyecto contiene un script automatizado para instalar mi entorno personali
 
 ## Instalación
 
-. Clonar el repositorio:
+## Clonar el repositorio:
 
    ```bash
    git clone https://github.com/valentinoloza/myarch.git
@@ -23,7 +23,7 @@ Este proyecto contiene un script automatizado para instalar mi entorno personali
    chmod +x install.sh
    ./install.sh
    ```
-. Reiniciar sesión gráfica o ejecutar `startx` si usás `.xinitrc`.
+## Reiniciar sesión gráfica o ejecutar `startx` si usás `.xinitrc`.
 
 ## Dotfiles incluidos
 
