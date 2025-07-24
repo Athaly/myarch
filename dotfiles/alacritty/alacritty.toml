@@ -1,0 +1,53 @@
+[env]
+TERM = "alacritty"
+
+[window]
+opacity = 0.95
+padding.x = 8
+padding.y = 6
+decorations = "none" # Sin bordes/controles de ventana
+
+[font]
+normal.family = "JetBrainsMono Nerd Font"
+normal.style = "Regular"
+size = 11.5
+builtin_box_drawing = true
+
+[scrolling]
+history = 10000
+
+[colors.primary]
+background = "#1e1e2e"
+foreground = "#cdd6f4"
+
+[colors.cursor]
+text = "#1e1e2e"
+cursor = "#cba6f7"
+
+[colors.selection]
+text = "#1e1e2e"
+background = "#cba6f7"
+
+[colors.normal]
+black   = "#181825"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#cba6f7"
+cyan    = "#94e2d5"
+white   = "#cdd6f4"
+
+[colors.bright]
+black   = "#585b70"
+red     = "#f38ba8"
+green   = "#a6e3a1"
+yellow  = "#f9e2af"
+blue    = "#89b4fa"
+magenta = "#a78bfa"
+cyan    = "#94e2d5"
+white   = "#ffffff"
+
+[selection]
+save_to_clipboard = true
+

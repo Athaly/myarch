@@ -1,0 +1,18 @@
+#!/bin/bash
+xrandr --output Virtual-1 --mode 1600x900
+
+#Utilidades VM
+VBoxClient --clipboard &
+VBoxClient --draganddrop &
+VBoxClient --checkhostversion &
+VBoxClient --seamless &
+VBoxClient --display &
+
+#Picom
+picom --config ~/.config/picom/picom.conf &
+
+#Feh
+feh --bg-fill ~/wallpaper/wallpaper.jpg &
+
+# Polybar
+~/.config/polybar/launch.sh --hack
